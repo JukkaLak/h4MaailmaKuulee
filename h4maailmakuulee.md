@@ -1,4 +1,4 @@
-# x) Aritkkelitiivistelmät
+# x) Artikkelitiivistelmät
 ## Teoriasta käytäntöön pilvipalvelimen avulla (h4)
 ### a) Pilvipalvelimen vuokraus ja asennus
 - Artikkelin kohdassa a) kuvailtiin, miten vuokrataan ja asennetaan pilvipalvelin ja sille domain-nimi, joka osoittaa kyseiselle palvelimelle
