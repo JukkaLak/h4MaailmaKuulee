@@ -25,6 +25,30 @@
     ```$ ssh kayttaja@123.456.7.8```
 - Juuri lukitaan komennolla
     ```$ sudo usermod -lock root```
-- 
+### f) Palvelimen ohjelmien päivitys
+- Tiedot saatavilla olevista päivityksistä haetaan komennolla
+    ```$ sudo apt-get update```
+- Päivitykset asennetaan komennolla
+    ```$ sudo apt-get upgrade```
+- Tietoturvapäivitykset asennetaan komennolla
+    ```sudo apt-get dist-upgrade```
+
+## First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS
+- Tässä artikkelissa kuvataan lyhyesti tärkeimmät työvaiheet virtuaalipalvelimen asennukseen DigitalOceanissa ja DNS-nimen vuokraamiseen Namecheapissa
+- Ehkä tärkein asia on luoda hyvä salasana palvelimelle, jotta sinne ei pääse murtautumaan helposti
+- Aluksi palvelimelle kirjaudutaan käyttämällä sen IP-osoitetta esimerkiksi komennolla
+    ```$ ssh root@10.0.0.1```
+- Ennen kuin palomuuri kytketään päälle, siihen tehdään reikä komennolla
+    ```$ sudo ufw allow 22/tcp```. Palomuuri kytketään päälle komennolla
+    ```$ sudo ufw enable```
+- Palvelimelle luodaan uusi käyttäjä komennolla
+    ```$ sudo adduser kayttaja``` ja käyttäjälle annetaan sudo-oikeudet komennolla
+    ```$ sudo adduser kayttaja sudo```
+- Palvelimen juuri lukitaan komennolla
+    ```$ sudo usermod --lock root```
+- Palvelimen ohjelmat päivitetään ensin hakemalla saatavilla olevat päivitykset komennolla
+    ```$ sudo apt-get update``` ja päivitykset asennetaan komennolla
+    ```$ sudo apt-get upgrade```
+
 
   
