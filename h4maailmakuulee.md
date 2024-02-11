@@ -81,7 +81,7 @@ Tämän jälkeen otin yhteyden virtuaalipalvelimeeni sen IP-osoitteen perusteell
 Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-palvelimen komennolla
     ```$ sudo apt-get install apache2```. Sitten tein uuden reiän palomuuriin komennolla
     ```$ sudo ufw allow 80/tcp```. Tämän jälkeen kokeilin ottaa selaimessa yhteyden virtuaalipalvelimeen syöttämällä sen IP-osoitteen ja minulle avautui Apachen testisivun, mikä tarkoitti siis, että palvelin toimii. Korvasin testisivu "Hello world!"-tekstillä syöttämällä komennon
-    ```$ echo Hello world! | sudo tee /var/www/html/index.html```. Kokeilin palvelimen toimivuutta sekä Debian virtuaalikoneellani sekä Windows-koneellani syöttämällä virtuaalipalvelimeni IP-osoitteen ja palvelin toimi molemmissa koneissa. Seuraava kuvakaappaus on otettu Windows-ympäristössä:
+    ```$ echo Hello world! | sudo tee /var/www/html/index.html```. Kokeilin palvelimen toimivuutta sekä Debian virtuaalikoneellani että Windows-koneellani syöttämällä virtuaalipalvelimeni IP-osoitteen ja palvelin toimi molemmissa koneissa. Seuraava kuvakaappaus on otettu Windows-ympäristössä:
 ![Näyttökuva (34).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(34).png)
 
 # d) Domain-nimen vuokraaminen
