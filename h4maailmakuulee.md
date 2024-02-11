@@ -51,7 +51,8 @@
     ```$ sudo apt-get upgrade```
 
 # a) Pilvipalvelimen vuokraus
-Päätin vuokrata pilvipalvelimen DigitalOceanilta ja hyödynsin tähän GitHub Educationin tarjoamia ilmaisia krediittejä. Aloitin rekisteröitymällä käyttäjäksi sähköpostilla. 
+Päätin vuokrata pilvipalvelimen DigitalOceanilta ja hyödynsin tähän GitHub Educationin tarjoamia ilmaisia krediittejä. Aloitin rekisteröitymällä käyttäjäksi sähköpostilla. Syötin käyttäjätietoni ja avasin sähköpostiini tulleen varmennusviesti ja seuraavaksi minulta kysyttiin, mihin tarkoitukseen käytän DigitalOceania sekä muita lisätietoja ja valitsin seuraavanlaiset vaihtoehdot:
+![Näyttökuva (31).png]
 
 
   
