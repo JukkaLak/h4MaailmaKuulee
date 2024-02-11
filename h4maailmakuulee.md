@@ -86,7 +86,7 @@ Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-pa
 
 # d) Domain-nimen vuokraaminen
 Käytin uuden virtuaalipalvelimen domain-nimen vuokraamiseen Namecheapia ja hyödynsin tähän GitHub Education krediittejä. Yritin todella kauan etsiä Namecheapin sivuilta vaihtoehtoa, jossa voin hyödyntää GitHub Education paketin krediittejä domain-nimen vuokraamiseen, mutta en meinannut millään löytää sellaista, mutta Googlettamalla löysin "Namecheap for education"-sivun, jossa pystyin etuni hyödyntämään. Tällä sivulla syötin hakukenttään osoitteen "jukkalakkala.me" ja tällä nimellä löytyi vapaana oleva domain-nimi. Valitsin tämän nimen ja lisäsin sen ostoskoriin ja ostoskorissa lisäsin vielä koulun sähköpostiosoitteeni, mutta minulle tuli ilmoitus, että Haaga-Helia ei ole ilmaisen nimipalvelun piirissä, joten jouduin käyttämään omaa rahaa domain-nimen vuokraamiseen. Loin itselleni käyttäjätunnukset ja hain itselleni vapaata domain-nimeä hakusanalla "jukkalakkala.com". Kyseinen osoite olisi ollut vapaana, mutta se olisi ollut testikäyttöön liian kallis, joten katsoin halvempia vaihtoehtoja ja valitsin domain-nimeksi "jukkalakkala.lol" ja lisäsin sen ostoskoriin. Vuokrasin palvelimen vuodeksi käyttöön ja laitoin automaattisen laskutuksen pois päältä. En ottanut mitään lisämaksullisia palveluita ja jatkoin eteenpäin ja seuraavaksi minulta kysyttiin nimi- ja yhteystietoja. Täytin ne ja seuraavaksi kysyttiin maksukorttitiedot jotka myös täytin. Hyväksyin maksun ja loppusummaksi tuli 1,98$. Seuraavaksi menin muokkaamaan domain-nimen asetuksia niin, että se osoittaa DigitalOceanin virtuaalipalvelimen IP-osoitteeseen.
-
+![Näyttökuva (37).png]
 
 
 
