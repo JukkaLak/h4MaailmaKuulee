@@ -82,7 +82,7 @@ Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-pa
     ```$ sudo apt-get install apache2```. Sitten tein uuden reiän palomuuriin komennolla
     ```$ sudo ufw allow 80/tcp```. Tämän jälkeen kokeilin ottaa selaimessa yhteyden virtuaalipalvelimeen syöttämällä sen IP-osoitteen ja minulle avautui Apachen testisivun, mikä tarkoitti siis, että palvelin toimii. Korvasin testisivu "Hello world!"-tekstillä syöttämällä komennon
     ```$ echo Hello world! | sudo tee /var/www/html/index.html```. Kokeilin palvelimen toimivuutta sekä Debian virtuaalikoneellani sekä Windows-koneellani syöttämällä virtuaalipalvelimeni IP-osoitteen ja palvelin toimi molemmissa koneissa. Seuraava kuvakaappaus on otettu Windows-ympäristössä:
-
+![Näyttökuva (34).png]
 
 
 
