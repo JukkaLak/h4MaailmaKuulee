@@ -54,7 +54,7 @@
 Päätin vuokrata pilvipalvelimen DigitalOceanilta ja hyödynsin tähän GitHub Educationin tarjoamia ilmaisia krediittejä. Aloitin rekisteröitymällä käyttäjäksi sähköpostilla. Syötin käyttäjätietoni ja avasin sähköpostiini tulleen varmennusviesti ja seuraavaksi minulta kysyttiin, mihin tarkoitukseen käytän DigitalOceania sekä muita lisätietoja ja valitsin seuraavanlaiset vaihtoehdot:
 ![Näyttökuva (31).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(31).png)
 Tämän jälkeen syötin maksutietoni ja kun olin ne syöttänyt onnistuneesti, minulle avautui seuraava näkymä:
-
+![Näyttökuva (32).png]
 
 
   
