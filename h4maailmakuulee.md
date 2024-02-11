@@ -53,8 +53,10 @@
 # a) Pilvipalvelimen vuokraus
 Päätin vuokrata pilvipalvelimen DigitalOceanilta ja hyödynsin tähän GitHub Educationin tarjoamia ilmaisia krediittejä. Aloitin rekisteröitymällä käyttäjäksi sähköpostilla. Syötin käyttäjätietoni ja avasin sähköpostiini tulleen varmennusviesti ja seuraavaksi minulta kysyttiin, mihin tarkoitukseen käytän DigitalOceania sekä muita lisätietoja ja valitsin seuraavanlaiset vaihtoehdot:
 ![Näyttökuva (31).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(31).png)
-Tämän jälkeen syötin maksutietoni ja kun olin ne syöttänyt onnistuneesti, minulle avautui seuraava näkymä:
-![Näyttökuva (32).png]
+Tämän jälkeen syötin maksutietoni ja kun olin ne syöttänyt onnistuneesti, minulle avautui seuraava etusivunäkymä:
+![Näyttökuva (32).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(32).png)
+Seuraavaksi valitsin vaihtoehdon "Deploy a virtual machine". Valitsin datakeskuksen sijainniksi Amsterdamin, koska se on lähimpänä nykyistä käyttöpaikkaani ja on myös suotavaa, että datakeskus sijaitsee toisessa EU-maassa. Valitsin käyttöjärjestelmäksi Debian 12 x64, koska sitä olen käyttänyt aiemmin kurssilla. Paketiksi valitsin peruspaketin, tavallisen prosessori SSD-kovalevyllä ja valitsin vaihtoehdon, jossa prosessorin koko on 1 GB ja kovalevyn koko 25 GB. Halvempikin vaihtoehto olisi ollut olemassa, mutta epäilin että siinä olisi ollut liian pieni prosessori ja kovalevy, joten valitsin toiseksi halvimman vaihtoehdon. Autentikaatiomenetelmäksi valitsin salasanan. Lopuksi kysyttiin, kuinka monta konetta halusin luoda ja loin vain yhden koneen ja annoin koneelle julkisen nimen (hostname) "muuli", jotta kone voidaan tunnistaa. Mitään lisämaksullisia palveluita en konetta luodessa valinnut, koska en niitä tarvitse. Kun olin saanut asetukset tehtyä, painoin "Create Droplet"-painiketta ja tämän jälkeen uusi virtuaalikone oli luotu ja koneen nimi ja IP-osoite näkyivät projektini Resources-välilehdellä
+
 
 
   
