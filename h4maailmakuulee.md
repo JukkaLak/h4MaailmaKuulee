@@ -9,7 +9,7 @@
 - Datakeskus, jossa palvelin toimii, kannattaa valita mahdollisimman läheltä sen käyttöpaikkaa ja mieluiten EU-alueelta
 ### d) Palvelin suojaan palomuurilla
 - Palomuurin asentaminen virtuaalipalvelimelle tapahtuu ottamalla ensin yhteys virtuaalipalvelimeen syöttämällä sen IP-osoite komennolla
-    ```$ssh root@123.456.7.8``` ja tämän jälkeen syötetään palvelimelle luotu salasana
+    ```$ ssh root@123.456.7.8``` ja tämän jälkeen syötetään palvelimelle luotu salasana
 - Jos palvelinta käyttää ensimmäistä kertaa, kannattaa hakea koneen päivitystiedot komennolla
     ```$ sudo apt-get update```
 - Palomuuri asenntaan komennolla
@@ -31,7 +31,7 @@
 - Päivitykset asennetaan komennolla
     ```$ sudo apt-get upgrade```
 - Tietoturvapäivitykset asennetaan komennolla
-    ```sudo apt-get dist-upgrade```
+    ```$ sudo apt-get dist-upgrade```
 
 ## First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS
 - Tässä artikkelissa kuvataan lyhyesti tärkeimmät työvaiheet virtuaalipalvelimen asennukseen DigitalOceanissa ja DNS-nimen vuokraamiseen Namecheapissa
@@ -87,8 +87,8 @@ Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-pa
 # d) Domain-nimen vuokraaminen
 Käytin uuden virtuaalipalvelimen domain-nimen vuokraamiseen Namecheapia ja hyödynsin tähän GitHub Education krediittejä. Yritin todella kauan etsiä Namecheapin sivuilta vaihtoehtoa, jossa voin hyödyntää GitHub Education paketin krediittejä domain-nimen vuokraamiseen, mutta en meinannut millään löytää sellaista, mutta Googlettamalla löysin "Namecheap for education"-sivun, jossa pystyin etuni hyödyntämään. Tällä sivulla syötin hakukenttään osoitteen "jukkalakkala.me" ja tällä nimellä löytyi vapaana oleva domain-nimi. Valitsin tämän nimen ja lisäsin sen ostoskoriin ja ostoskorissa lisäsin vielä koulun sähköpostiosoitteeni, mutta minulle tuli ilmoitus, että Haaga-Helia ei ole ilmaisen nimipalvelun piirissä, joten jouduin käyttämään omaa rahaa domain-nimen vuokraamiseen. Loin itselleni käyttäjätunnukset ja hain itselleni vapaata domain-nimeä hakusanalla "jukkalakkala.com". Kyseinen osoite olisi ollut vapaana, mutta se olisi ollut testikäyttöön liian kallis, joten katsoin halvempia vaihtoehtoja ja valitsin domain-nimeksi "jukkalakkala.lol" ja lisäsin sen ostoskoriin. Vuokrasin palvelimen vuodeksi käyttöön ja laitoin automaattisen laskutuksen pois päältä. En ottanut mitään lisämaksullisia palveluita ja jatkoin eteenpäin ja seuraavaksi minulta kysyttiin nimi- ja yhteystietoja. Täytin ne ja seuraavaksi kysyttiin maksukorttitiedot jotka myös täytin. Hyväksyin maksun ja loppusummaksi tuli 1,98$. Seuraavaksi menin muokkaamaan domain-nimen asetuksia niin, että se osoittaa DigitalOceanin virtuaalipalvelimen IP-osoitteeseen.
 ![Näyttökuva (37).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(37).png)
-Testasin vielä selaimessa, että viekö osoite www.jukkalakkala.lol web-palvelimelleni ja se toimi
-![Näyttökuva (38).png]
+Testasin vielä selaimessa, että viekö osoite www.jukkalakkala.lol web-palvelimelleni ja se toimi.
+![Näyttökuva (38).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(38).png)
 
 
 
