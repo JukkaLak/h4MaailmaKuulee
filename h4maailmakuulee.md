@@ -50,5 +50,8 @@
     ```$ sudo apt-get update``` ja päivitykset asennetaan komennolla
     ```$ sudo apt-get upgrade```
 
+# a) Pilvipalvelimen vuokraus
+Päätin vuokrata pilvipalvelimen DigitalOceanilta ja hyödynsin tähän GitHub Educationin tarjoamia ilmaisia krediittejä. Aloitin rekisteröitymällä käyttäjäksi sähköpostilla. 
+
 
   
