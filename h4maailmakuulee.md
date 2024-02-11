@@ -59,6 +59,30 @@ Seuraavaksi valitsin vaihtoehdon "Deploy a virtual machine". Valitsin datakeskuk
 ![Näyttökuva (33).png](https://github.com/JukkaLak/h4MaailmaKuulee/blob/main/N%C3%A4ytt%C3%B6kuva%20(33).png)
 
 # b) Palomuuri päälle, juuri kiinni ja muut päivitykset
+Aloitin avaamalla Debian virtuaalikoneeni ja ensimmäiseksi latasin SSH serverin komennolla
+    ```$ sudo apt-get install ssh-server```. Tämän jälkeen laitoin sen päälle komennoilla
+    ```$ sudo systemctl start ssh``` ja 
+    ```$ sudo systemctl enable ssh```.
+Tämän jälkeen otin yhteyden virtuaalipalvelimeeni sen IP-osoitteen perusteella syöttämällä komennon
+    ```$ ssh root@164.92.222.17``` ja syötin virtuaalipalvelimeni salasanan. Tämän jälkeen hain päivitystiedot komennolla
+    ```$ sudo apt-get update```. Seuraavaksi asensin palomuurin komennolla
+    ```$ sudo apt-get install ufw```, tein palomuuriin reiän komennolla
+    ```$ sudo ufw allow 22/tcp``` ja laitoin palomuurin päälle komennolla 
+    ```$ sudo ufw enable```. Seuraavaksi loin virtuaalipalvelimelle uuden käyttäjän komennolla
+    ```$ sudo adduser jukka```, loin käyttäjälle salasanan ja syötin nimitietoni. Tämän jälkeen annoin uudelle käyttäjälle pääkäyttäjäoikeudet komennolla
+    ```$ sudo adduser jukka sudo```. Sitten avasin uuden komentoriviterminaali ja kokeilin muodostaa SSH-yhteyden virtuaalipalvelimeen uuden käyttäjän tunnuksilla antamalla komennon
+    ```$ ssh jukka@164.92.222.17``` ja syötin salasanan. Yhteyden muodostus onnistui. Tämän jälkeen lukitsin juuren komennolla
+    ```$ sudo usermod --lock root``` ja sen jälkeen hai päivitystiedot komennolla
+    ```$ sudo apt-get update``` ja sitten tein päivitykset komennolla
+    ```$ sudo apt-get upgrade``` ja lopuksi tein vielä tietoturvapäivitykset komennolla
+    ```$ sudo apt-get dist-upgrade```.
+
+# c) Web-palvelimen asennnus
+Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-palvelimen komennolla
+    ```$ sudo apt-get install apache2```. Sitten tein uuden reiän palomuuriin komennolla
+    ```$ sudo ufw allow 80/tcp```. Tämän jälkeen kokeilin ottaa selaimessa yhteyden virtuaalipalvelimeen syöttämällä sen IP-osoitteen ja minulle avautui Apachen testisivun, mikä tarkoitti siis, että palvelin toimii. Korvasin testisivu "Hello world!"-tekstillä syöttämällä komennon
+    ```$ echo Hello world! | sudo tee /var/www/html/index.html```. Kokeilin palvelimen toimivuutta sekä Debian virtuaalikoneellani sekä Windows-koneellani syöttämällä virtuaalipalvelimeni IP-osoitteen ja palvelin toimi molemmissa koneissa. Seuraava kuvakaappaus on otettu Windows-ympäristössä:
+
 
 
 
