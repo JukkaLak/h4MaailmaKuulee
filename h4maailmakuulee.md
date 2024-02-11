@@ -77,7 +77,7 @@ Tämän jälkeen otin yhteyden virtuaalipalvelimeeni sen IP-osoitteen perusteell
     ```$ sudo apt-get upgrade``` ja lopuksi tein vielä tietoturvapäivitykset komennolla
     ```$ sudo apt-get dist-upgrade```.
 
-# c) Web-palvelimen asennnus
+# c) Web-palvelimen asennus
 Aloitin palvelimen asentamisen asentamalla virtuaalipalvelimelleni Apache web-palvelimen komennolla
     ```$ sudo apt-get install apache2```. Sitten tein uuden reiän palomuuriin komennolla
     ```$ sudo ufw allow 80/tcp```. Tämän jälkeen kokeilin ottaa selaimessa yhteyden virtuaalipalvelimeen syöttämällä sen IP-osoitteen ja minulle avautui Apachen testisivun, mikä tarkoitti siis, että palvelin toimii. Korvasin testisivu "Hello world!"-tekstillä syöttämällä komennon
